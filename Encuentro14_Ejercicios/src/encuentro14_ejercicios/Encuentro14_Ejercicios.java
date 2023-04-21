@@ -1,0 +1,28 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package encuentro14_ejercicios;
+
+import Entidad.Puntos;
+
+/**
+ *
+ * @author diego
+ */
+public class Encuentro14_Ejercicios {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Puntos pt = new Puntos();
+        double resultado = pt.calcularDistancia();
+        
+        pt.crearPuntos();
+        pt.calcularDistancia();
+        System.out.println(pt.calcularDistancia());
+    }
+    
+}
