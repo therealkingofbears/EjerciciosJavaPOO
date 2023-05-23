@@ -73,6 +73,7 @@ debemos indicárselo al usuario
             List<Carta> cartasEntregadas = cartas.subList(indiceActual, indiceActual + cant);
             indiceActual += cant;
 
+            System.out.println("---------------");
             System.out.println("Cartas entregadas:");
             for (Carta carta : cartasEntregadas) {
                 System.out.println(carta);
@@ -90,6 +91,7 @@ debemos indicárselo al usuario
             return;
         }
 
+        System.out.println("---------------");
         System.out.println("Cartas en el montón:");
         for (int i = 0; i < indiceActual; i++) {
             System.out.println(cartas.get(i));
@@ -97,6 +99,7 @@ debemos indicárselo al usuario
     }
     
     public void mostrarBaraja() {
+        System.out.println("---------------");
         System.out.println("Cartas en la baraja:");
         for (int i = indiceActual; i < cartas.size(); i++) {
             System.out.println(cartas.get(i));
